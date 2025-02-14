@@ -1,25 +1,8 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laba1", "Laba1\Laba1.csproj", "{E0AC5F3C-6B35-4AB7-95F8-BBC75D28FD4B}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E0AC5F3C-6B35-4AB7-95F8-BBC75D28FD4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E0AC5F3C-6B35-4AB7-95F8-BBC75D28FD4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E0AC5F3C-6B35-4AB7-95F8-BBC75D28FD4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E0AC5F3C-6B35-4AB7-95F8-BBC75D28FD4B}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EC5B5A82-FB79-4210-B7B9-416ADA566397}
-	EndGlobalSection
-EndGlobal
+Console.WriteLine("Как вас зовут?");
+string name = Console.ReadLine();
+Console.WriteLine("Сколько вам лет?");
+string age = Console.ReadLine();
+Console.WriteLine("Где вы работаете?");
+string work = Console.ReadLine();
+Console.WriteLine($"Ваше имя {name},вам {age},вы рабоаете {work}");
+Console.ReadKey();
